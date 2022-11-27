@@ -8,8 +8,11 @@ APP 버벅거림, APP 중지
 
 ## Memory Leak 디버깅 방법
 1. 안드로이드 스튜디오 메모리 프로파일러 사용
+2. 
 앱 실행 > 메모리 프로파일러 > (+) Dump Java heap 클릭
+
 객체를 보려면 package로 정렬한 다음 > 현재 Activity로 이동(Memory Leak이 예상되는 행동 수행) > 메모리 사용 중인 것을 확인할 수 있음
+
 Activity 닫기 > GC 다시 실행 후 > 다시 Dump Java heap를 클릭하여 메모리가 수거되었는지 확인
 
 * 참고 자료
