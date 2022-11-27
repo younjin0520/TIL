@@ -16,6 +16,7 @@ APP 버벅거림, APP 중지
 Activity 닫기 > GC 다시 실행 후 > 다시 Dump Java heap를 클릭하여 메모리가 수거되었는지 확인
 
 * 참고 자료
+https://velog.io/@windtrip/Android-Memory-Leak
 https://www.youtube.com/watch?v=4Wnu_2meZaI
 https://www.youtube.com/watch?v=LGVbpobV-Yg
 https://www.youtube.com/watch?v=v4kCRZ_O4Lc
